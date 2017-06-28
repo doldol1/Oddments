@@ -8,7 +8,7 @@ import re
 
 
 #주소 추가
-OR_URLS=('http://news.naver.com/main/search/search.nhn?'\
+OR_URLS=['http://news.naver.com/main/search/search.nhn?'\
 'rcnews=exist%3A032%3A005%3A086%3A020%3A021%3A081%3A022%3A023%3A025%'\
 '3A028%3A038%3A469%3A&refresh=&so=rel.dsc&stPhoto=&stPaper=&stRelease=&'\
 'ie=MS949&detail=0&rcsection=&query=%C0%CF%C0%DA%B8%AE&sm=title.basic&pd=4&'\
@@ -32,7 +32,18 @@ OR_URLS=('http://news.naver.com/main/search/search.nhn?'\
 'rcnews=exist%3A032%3A005%3A086%3A020%3A021%3A081%3A022%3A023%3A025%'\
 '3A028%3A038%3A469%3A&refresh=&so=rel.dsc&stPhoto=&stPaper=&stRelease=&'\
 'ie=MS949&detail=0&rcsection=&query=%BD%C7%BE%F7&sm=title.basic&pd=4&'\
-'startDate=2012-01-01&endDate=2017-06-19')
+'startDate=2012-01-01&endDate=2017-06-19']
+
+# s='http://news.naver.com/main/search/search.nhn?'\
+# 'rcnews=exist%3A032%3A005%3A086%3A020%3A021%3A081%3A022%3A023%3A025%'\
+# '3A028%3A038%3A469%3A&refresh=&so=rel.dsc&stPhoto=&stPaper=&stRelease=&'\
+# 'ie=MS949&detail=0&rcsection=&query=%C7%D8%BE%E7%BD%C9%C3%FE%BC%F6&'\
+# 'sm=all.basic&pd=4&startDate=2017-01-01&endDate=2017-06-28'
+# OR_URLS=['http://news.naver.com/main/search/search.nhn?'\
+# 'rcnews=exist%3A032%3A005%3A086%3A020%3A021%3A081%3A022%3A023%3A025%'\
+# '3A028%3A038%3A469%3A&refresh=&so=rel.dsc&stPhoto=&stPaper=&stRelease=&'\
+# 'ie=MS949&detail=0&rcsection=&query=%C7%D8%BE%E7%BD%C9%C3%FE%BC%F6&'\
+# 'sm=all.basic&pd=4&startDate=2017-01-01&endDate=2017-06-28']
 
 
 # 출력 파일 명
